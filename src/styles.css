@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.data {
+  padding: 32px;
+  padding-top: 24px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 500px;
+  height: fit-content;
+  border-width: 10px;
+  border-style: double;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+}
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
